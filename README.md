@@ -3,20 +3,20 @@ I was in database class and started writing shitty sql because scuffed code is f
 ## Example
 Changes this:
 > CREATE TABLE IF NOT EXISTS Authors ( <br>
-    AuthorID INT AUTO_INCREMENT PRIMARY KEY,
-    Name VARCHAR(100) NOT NULL,
-    BirthDate DATE,
-    Nationality VARCHAR(50)
-);
+    AuthorID INT AUTO_INCREMENT PRIMARY KEY, <br>
+    Name VARCHAR(100) NOT NULL, <br>
+    BirthDate DATE, <br>
+    Nationality VARCHAR(50) <br>
+); <br>
 
 
 Into this:
-> cReAtE TaBlE If nOt eXiStS AuThOrS (
-    AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY,
-    nAmE VaRcHaR(100) nOt nUlL,
-    bIrThDaTe dAtE,
-    nAtIoNaLiTy vArChAr(50)
-);
+> cReAtE TaBlE If nOt eXiStS AuThOrS ( <br>
+    AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY, <br>
+    nAmE VaRcHaR(100) nOt nUlL, <br>
+    bIrThDaTe dAtE, <br>
+    nAtIoNaLiTy vArChAr(50) <br>
+); <br>
 
 
 ## Installation
