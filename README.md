@@ -13,12 +13,14 @@ CREATE TABLE IF NOT EXISTS Authors (
 
 
 Into this:
-> cReAtE TaBlE If nOt eXiStS AuThOrS ( <br>
-&nbsp;AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY, <br>
-&nbsp;nAmE VaRcHaR(100) nOt nUlL, <br>
-&nbsp;bIrThDaTe dAtE, <br>
-&nbsp;nAtIoNaLiTy vArChAr(50) <br>
-); <br>
+<pre>
+cReAtE TaBlE If nOt eXiStS AuThOrS (
+    AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY,
+    nAmE VaRcHaR(100) nOt nUlL,
+    bIrThDaTe dAtE,
+    nAtIoNaLiTy vArChAr(50)
+);
+</pre>
 
 
 ## Installation
