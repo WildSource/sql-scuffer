@@ -2,12 +2,14 @@
 I was in database class and started writing shitty sql because scuffed code is funny.
 ## Example
 Changes this:
-> CREATE TABLE IF NOT EXISTS Authors ( <br>
->    AuthorID INT AUTO_INCREMENT PRIMARY KEY, <br>
-&nbsp;Name VARCHAR(100) NOT NULL, <br>
-&nbsp;BirthDate DATE, <br>
-&nbsp;Nationality VARCHAR(50) <br>
-); <br>
+<pre>
+CREATE TABLE IF NOT EXISTS Authors (
+    AuthorID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    BirthDate DATE,
+    Nationality VARCHAR(50)
+);
+</pre> 
 
 
 Into this:
