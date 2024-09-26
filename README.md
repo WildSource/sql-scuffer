@@ -3,7 +3,7 @@ I was in database class and started writing shitty sql because scuffed code is f
 ## Example
 Changes this:
 > CREATE TABLE IF NOT EXISTS Authors ( <br>
-&nbsp;AuthorID INT AUTO_INCREMENT PRIMARY KEY, <br>
+>    AuthorID INT AUTO_INCREMENT PRIMARY KEY, <br>
 &nbsp;Name VARCHAR(100) NOT NULL, <br>
 &nbsp;BirthDate DATE, <br>
 &nbsp;Nationality VARCHAR(50) <br>
