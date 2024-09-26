@@ -2,7 +2,7 @@
 I was in database class and started writing shitty sql because scuffed code is funny.
 ## Example
 Changes this:
-> CREATE TABLE IF NOT EXISTS Authors (
+> CREATE TABLE IF NOT EXISTS Authors ( <br>
     AuthorID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
     BirthDate DATE,
