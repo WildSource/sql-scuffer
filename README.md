@@ -3,18 +3,22 @@ I was in database class and started writing shitty sql because scuffed code is f
 ## Example
 Changes this:
 > CREATE TABLE IF NOT EXISTS Authors (
->    AuthorID INT AUTO_INCREMENT PRIMARY KEY,
->    Name VARCHAR(100) NOT NULL,
->    BirthDate DATE,
->    Nationality VARCHAR(50)
->);
+    AuthorID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    BirthDate DATE,
+    Nationality VARCHAR(50)
+);
+
+
 Into this:
 > cReAtE TaBlE If nOt eXiStS AuThOrS (
->    AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY,
->    nAmE VaRcHaR(100) nOt nUlL,
->    bIrThDaTe dAtE,
->    nAtIoNaLiTy vArChAr(50)
->);
+    AuThOrId iNt aUtO_InCrEmEnT PrImArY KeY,
+    nAmE VaRcHaR(100) nOt nUlL,
+    bIrThDaTe dAtE,
+    nAtIoNaLiTy vArChAr(50)
+);
+
+
 ## Installation
 You can download the release which is a linux executable.
 If you are on windows compile it yourself.
